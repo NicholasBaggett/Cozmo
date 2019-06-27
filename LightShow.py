@@ -23,7 +23,7 @@ def random_light(robot: cozmo.robot.Robot, cube: cozmo.objects.LightCube):
     elif rand == 3:
         cube.set_lights(cozmo.lights.blue_light)
     elif rand == 4:
-        cube.set_lights(yellow_light)
+        cube.set_lights(purple_light)
     else:
         pass
 
